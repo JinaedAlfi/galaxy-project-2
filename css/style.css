@@ -1,0 +1,319 @@
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+
+width: 80%;
+overflow: auto;
+
+margin: auto;
+
+margin-top: 50px;
+}
+.logo{
+float: left;
+}
+.logo img{
+
+}
+.menue{
+float: right;
+}
+.menue a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    color: #97999b;
+text-transform: capitalize;
+    
+text-decoration: none;
+    
+color: #626262;
+}
+.baner{
+    
+    margin: 50px auto;
+    overflow: hidden;
+}
+.baner img{
+    width: 100%;
+    position: relative;
+}
+.brnding{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50px);
+}
+.brnding h1{
+
+font-family: 'Roboto', sans-serif;
+
+color: #ffffff;
+
+font-size: 32pt;
+
+font-weight: 700;
+
+margin-bottom: 20px;
+}
+.brnding h3{
+
+font-family: 'Roboto', sans-serif;
+
+color: #ffffff;
+
+font-weight: 400;
+
+margin-bottom: 40px;
+
+font-size: 15pt;
+
+text-align: center;
+}
+.brnding button{
+    
+font-family: 'Roboto', sans-serif;
+    
+padding: 15px 45px;
+    
+background-color: #fb6e52;
+    
+border: 2px solid #ffffff;
+    
+font-size: 18px;
+    
+position: absolute;
+    
+left: 29%;
+    
+font-weight: 500;
+    
+border-radius: 3%;
+    
+color: #ffffff;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.web_design{
+   width: 30%;
+
+}
+.web_design img{
+    margin-inline: 120px;
+    margin-bottom: 20px;
+}
+.web_design h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15pt;
+    color:#292c34;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.web_design p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
+    color: #97999b;
+    text-align: center;
+}
+.comment{
+    width: 62%;
+    margin: auto;
+    margin-top: 60px;
+}
+.comment p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+    color: #fb6e52;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.lifestyle{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.item{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.item img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.item h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15pt;
+    color:#292c34;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
+    color: #97999b;
+    text-align: center;
+
+}
+.fromthe{
+
+height: 650px;
+
+background-color: #f9f9f9;
+
+position: relative;
+}
+.fromthe h2{
+
+font-family: 'Roboto', sans-serif;
+
+position: absolute;
+
+left: 42%;
+
+top: 10%;
+
+font-weight: 400;
+
+font-size: 20pt;
+
+color: #292c34;
+}
+.blog{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-evenly;
+}
+.design{
+
+width: 40%;
+
+margin-top: 168px;
+}
+.design img{
+
+width: 100%;
+
+height: 300px;
+
+width: 100%;
+
+margin-bottom: 16px;
+}
+.design h1{
+
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Roboto', sans-serif;
+
+font-weight: 400;
+
+font-size: 15pt;
+
+color: #fb6e52;
+
+margin-bottom: 15px;
+}
+.design p{
+
+font-family: 'Roboto', sans-serif;
+
+font-weight: 300;
+
+font-size: 13pt;
+
+color: #97999b;
+
+}
+footer{
+    background-color:#f0f0f0;
+    padding: 30px 0;
+    background-color: #292c34;
+}
+.footer_wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.terms{
+    width: 35%;
+    display: flex;
+    
+}
+.terms img{
+
+}
+.terms p{
+    
+font-family: 'Roboto', sans-serif;
+    
+margin: 10px 10px 10px 20px;
+    
+font-weight: 300;
+    
+font-size: 13pt;
+    
+color: #797c82;
+}
+.terms ul{
+    display: flex;
+    list-style: none;
+}
+.terms ul li{
+    margin-right: 15px;
+
+}
+.terms ul li a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+
+
+}
+.social_icon{
+    width: 20%;
+}
+.social_icon ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+.social_icon ul li{
+    margin-left: 60px;
+    margin-top: 9px;
+}
+.social_icon ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+}
